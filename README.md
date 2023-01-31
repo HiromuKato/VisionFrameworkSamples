@@ -21,7 +21,7 @@
 
 Vision フレームワークは利用方法がどれもほぼ同じで、リクエスト時のパラメータと出力されるオブジェクトに注目すれば良い
 
-| 処理内容 | サンプル番号 | リクエスト | 出力オブジェクト |
+| <div style="width:190px">処理内容</div> | <div style="width:90px">サンプル番号</div> | リクエスト | 出力オブジェクト |
 | ---- | ---- | ----- | ----- |
 | 画像識別 | [3](https://developer.apple.com/documentation/vision/classifying_images_for_categorization_and_search) | [VNClassifyImageRequest](https://developer.apple.com/documentation/vision/vnclassifyimagerequest) | [[VNClassificationObservation]](https://developer.apple.com/documentation/vision/vnclassificationobservation) |
 | 画像の顕著性認識 | [6](https://developer.apple.com/documentation/vision/highlighting_areas_of_interest_in_an_image_using_saliency) | [VNGenerateAttentionBasedSaliencyImageRequest](https://developer.apple.com/documentation/vision/vngenerateattentionbasedsaliencyimagerequest)<br>[VNGenerateObjectnessBasedSaliencyImageRequest](https://developer.apple.com/documentation/vision/vngenerateobjectnessbasedsaliencyimagerequest) | [[VNSaliencyImageObservation]](https://developer.apple.com/documentation/vision/vnsaliencyimageobservation) |
